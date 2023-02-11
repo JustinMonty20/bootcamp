@@ -1,9 +1,9 @@
 function catchError(fn) {
     try {
-       console.log('x') 
        fn();
+       return false;
     } catch(err) {
-        console.log(err);
+        return err;
     }
 }
 
