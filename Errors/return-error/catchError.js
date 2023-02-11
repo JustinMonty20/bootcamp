@@ -1,6 +1,7 @@
 function catchError(fn) {
     try {
-        fn();
+       console.log('x') 
+       fn();
     } catch(err) {
         console.log(err);
     }
