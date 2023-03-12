@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const Shape = require('../Shape');
+const Shape = require('./Shape');
 
 describe('Shape', () => {
     it('should be a function', () => {
