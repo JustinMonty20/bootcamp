@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const Celebrity = require('../Celebrity');
+const Celebrity = require('./Celebrity');
 
 describe('Celebrity', () => {
     describe('Will Smith', () => {
