@@ -1,5 +1,8 @@
 const obj = {
-    name: 'Bob'
+    name: 'Bob',
+    getName: function() {
+        return this.name;
+    }
 }
 
 module.exports = obj;
